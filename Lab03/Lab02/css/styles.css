@@ -1,0 +1,38 @@
+﻿body {
+    color: white;
+    background: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 280px;
+    background-color: black;
+    min-height:100vh;
+}
+
+td {
+    background-color: white;
+}
+
+table {
+    border: 1px solid;
+    border-color:white;
+    padding: 5px;
+}
+
+td {
+    color: black;
+    padding:10px;
+}
+
+span {
+    font-size: 1.5em;
+}

@@ -1,0 +1,41 @@
+﻿Initial Tax Company Data:
+
+TaxCode             |TaxName             |     Price|
+VAND                | Vanduo             |      0.07|
+KVND                | Karštas vanduo     |      0.20|
+LH20                | Ledinis Vanduo     |      0.10|
+
+Initial Citizen Tax Data:
+
+LastName             FirstName           |Address             |Month          |TaxCode             | TaxAmount|
+ Vardenis            Pavardauskis        | Adresatas          |Vasaris        |Benzinas            |        28|
+ Vardenis            Pavardauskis        | Adresatas          |Vasaris        |VAND                |        14|
+ Vardenis            Pavardauskis        | Adresatas          |Kovas          |KVND                |        20|
+ Vardenis            Pavardauskis        | Adresatas          |Kovas          |LH20                |        30|
+ Vardenis            Pavardauskis        | Adresatas          |Kovas          |VAND                |        15|
+ Vardenis            Pavardauskis        | Adresatas          |Balandis       |VAND                |        99|
+ Tomukas             Tomas               | Tomo namas 1       |Kovas          |VAND                |        97|
+ Tomukas             Tomas               | Tomo namas 1       |Balandis       |VAND                |       156|
+ Tomukas             Tomas               | Tomo namas 1       |Rugsėjis       |VAND                |        20|
+
+Tax Sum of all citizens:
+
+LastName             FirstName           |Address             |TaxSum    |
+ Vardenis            Pavardauskis        | Adresatas          |     15.96|
+ Tomukas             Tomas               | Tomo namas 1       |     19.11|
+
+Tax Sum of all citizens SORTED A-Z:
+
+LastName             FirstName           |Address             |TaxSum    |
+ Tomukas             Tomas               | Tomo namas 1       |     19.11|
+ Vardenis            Pavardauskis        | Adresatas          |     15.96|
+
+All Citizen TOTAL Tax Sum: 35.07
+
+Average Tax Sum: 17.54
+
+Citizens who paid above average:
+
+LastName             FirstName           |Address             |TaxSum    |
+ Tomukas             Tomas               | Tomo namas 1       |     19.11|
+
