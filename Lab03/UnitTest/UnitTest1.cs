@@ -8,10 +8,89 @@ namespace UnitTest
     public class UnitTest1
     {
         /// <summary>
+        /// Compares CitizenData object with same parameters. Comparison should return 0
+        /// </summary>
+        [TestMethod]
+        public void CompareTo_CitizenDataSame_Returns0()
+        {
+            CitizenData cData1 = new CitizenData("lastname", "firstname", "address", 0);
+            CitizenData cData2 = new CitizenData("lastname", "firstname", "address", 0);
+            Assert.AreEqual(cData1.CompareTo(cData2),0);
+        }
+
+        /// <summary>
+        /// Compares lhs CitizenData object with alphabetically higher parameters. Comparison should return 1
+        /// </summary>
+        [TestMethod]
+        public void CompareTo_CitizenDataSame_Returns1()
+        {
+            CitizenData cData1 = new CitizenData("a", "a", "a", 0);
+            CitizenData cData2 = new CitizenData("b", "b", "b", 0);
+            Assert.AreEqual(cData1.CompareTo(cData2), 1);
+        }
+
+        /// <summary>
+        /// Compares lhs CitizenData object with alphabetically lower parameters. Comparison should return -1
+        /// </summary>
+        [TestMethod]
+        public void CompareTo_CitizenDataSame_ReturnsMinus1()
+        {
+            CitizenData cData1 = new CitizenData("b", "b", "b", 0);
+            CitizenData cData2 = new CitizenData("a", "a", "a", 0);
+            Assert.AreEqual(cData1.CompareTo(cData2), -1);
+        }
+
+        /// <summary>
+        /// Tests CitizenTax and CitizenTaxData object comparison with different parameters
+        /// </summary>
+        [TestMethod]
+        public void Equals_CitizenDataCitizenTaxDataDifferentParameters_False()
+        {
+            CitizenData cData = new CitizenData("lastname1", "firstname1", "address1", 0);
+            CitizenTaxData cTaxData = new CitizenTaxData("lastname0", "firstname0", "address0", "April", "0", 0);
+            Assert.IsFalse(cData.Equals(cTaxData));
+        }
+
+        /// <summary>
+        /// Tests CitizenTax and CitizenTaxData object comparison with same parameters
+        /// </summary>
+        [TestMethod]
+        public void Equals_CitizenDataCitizenTaxDataSameParameters_True()
+        {
+            CitizenData cData = new CitizenData("lastname", "firstname", "address", 0);
+            CitizenTaxData cTaxData = new CitizenTaxData("lastname", "firstname", "address", "April", "0", 0);
+            Assert.IsTrue(cData.Equals(cTaxData));
+        }
+
+        /// <summary>
+        /// Tests 2 Citizen Data Comparison with same parameters. Should Return True.
+        /// </summary>
+        [TestMethod]
+        public void Equals_CitizenDataSameParameters_True()
+        {
+            CitizenData cData1 = new CitizenData("lastname1", "firstname1", "address1", 0);
+            CitizenData cData2 = new CitizenData("lastname1", "firstname1", "address1", 0);
+
+            Assert.IsTrue(cData1.Equals(cData2));
+        }
+
+        /// <summary>
+        /// Tests 2 Citizen Data Comparison with different Keys. Should Return false.
+        /// </summary>
+        [TestMethod]
+        public void Equals_CitizenDataDifferentParameters_False()
+        {
+            CitizenData cData1 = new CitizenData("lastname1", "firstname1", "address1", 0);
+            CitizenData cData2 = new CitizenData("lastname2", "firstname2", "address2", 0);
+
+            Assert.IsFalse(cData1.Equals(cData2));
+        }
+
+        /// <summary>
         /// Tets add function and compares to array
         /// </summary>
         [TestMethod]
-        public void Test_Add()
+        public void Add_LinkedListArrayEquality_True()
         {
             TaxData[] testArray;
             LinkedList<TaxData> list;
@@ -29,7 +108,7 @@ namespace UnitTest
         /// Tests LinkedList Sort() function and compares to array funcction
         /// </summary>
         [TestMethod]
-        public void Test_Sort()
+        public void Sort_LinkedListArrayEquality_True()
         {
             TaxData[] testArray;
             LinkedList<TaxData> list;
