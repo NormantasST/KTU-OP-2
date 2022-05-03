@@ -10,7 +10,7 @@ namespace Lab04
 {
     public partial class Lab04Form : System.Web.UI.Page
     {
-        private string inputDirectory = @"App_Data/Data1";
+        private string inputDirectory = @"App_Data/Data2";
         private string outputFile = @"App_Data/Output.txt";
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -156,7 +156,7 @@ namespace Lab04.App_Code
 
         public static void OutputLargeReleases(List<Publication> publications, string fileName)
         {
-            using (StreamWriter sw = new StreamWriter(fileName, encoding:System.Text.Encoding.UTF8))
+            using (StreamWriter sw = new StreamWriter(fileName))
             {
                 sw.WriteLine("Name;Release Number");
                 foreach (Publication publication in publications)

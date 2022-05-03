@@ -1,0 +1,5 @@
+VGTU Biblioteka
+Mickevičiaus g. 356
+86666111111
+Laikraštis Tikslas;Newspaper;Mokslinis;Leidykla Tiksliukai;5/10/2021;25;200;30
+Laikraštis Abstraktas;Newspaper;Filosofija;Leidykla Filosofantas;1/1/2022;15;10000;15
