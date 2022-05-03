@@ -1,0 +1,6 @@
+VDU Biblioteka
+Mickevičiaus g. 10
+86666666666
+Laikraštis Įvairovė;Newspaper;Viskas;Leidykla Supratimas;10/10/2018;15;20000;15
+Žurnalas Pasaulis;Journal;Geografinis;Pasaulio žemėlapiai;1/1/2000;64;1500;123456789;25
+Žurnalas Informatika;Journal;Mokslinis;Informatikai;9/8/1995;120;25000;987654321;13

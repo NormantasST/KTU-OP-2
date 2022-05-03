@@ -1,0 +1,43 @@
+Initial Data:
+
+Kauno Biblioteka
+Kauno adresato g. 1
+8675946855
+----------------------------------------------------------------------------------------------------
+Name                      |Type            |Publisher                 |ReleaseDate          |PageCount  |NumberReleased  |ISBN/Number     |Author/Number       
+Knyga 1                   |Mokslinis       |Kauno knygos              |5/3/2020 12:00:00 AM |       125 |           1000 |123546          |Visų Rašytojas      
+Laikraštis 1918           |Istorinis       |Istoriniai laikraščiai    |5/3/2022 12:00:00 AM |        25 |            200 |            124 |
+Knyga 3                   |Pramoginis      |Stumbro Lapai             |5/5/2022 12:00:00 AM |       253 |            250 |111111          |Rašytojas 1         
+Žurnalas Pasaulis         |Geografinis     |Pasaulio žemėlapiai       |1/1/2000 12:00:00 AM |        64 |          15000 |555555          |                   1
+Žurnalas Mokslas          |Mokslinis       |Mokslu susidomėja         |5/3/2022 12:00:00 AM |        32 |           3000 |444444          |                  45
+
+VDU Biblioteka
+Mickevičiaus g. 10
+86666666666
+----------------------------------------------------------------------------------------------------
+Name                      |Type            |Publisher                 |ReleaseDate          |PageCount  |NumberReleased  |ISBN/Number     |Author/Number       
+Laikraštis Įvairovė       |Viskas          |Leidykla Supratimas       |10/10/2018 12:00:00 AM |        15 |          20000 |             15 |
+Žurnalas Pasaulis         |Geografinis     |Pasaulio žemėlapiai       |1/1/2000 12:00:00 AM |        64 |           1500 |123456789       |                  25
+Žurnalas Informatika      |Mokslinis       |Informatikai              |9/8/1995 12:00:00 AM |       120 |          25000 |987654321       |                  13
+
+Older Than 2 Years Publications in specific libraries
+
+Kauno Biblioteka has 2 publications older than 2 years
+
+VDU Biblioteka has 3 publications older than 2 years
+
+
+"Mokslinis" type publication:
+
+Name                      |Type            |Publisher                 |ReleaseDate          |PageCount  |NumberReleased  |ISBN/Number    | Author/Number       
+Knyga 1                   |Mokslinis       |Kauno knygos              |5/3/2020 12:00:00 AM |       125 |           1000 |123546          |Visų Rašytojas      
+Žurnalas Mokslas          |Mokslinis       |Mokslu susidomėja         |5/3/2022 12:00:00 AM |        32 |           3000 |444444          |                  45
+Žurnalas Informatika      |Mokslinis       |Informatikai              |9/8/1995 12:00:00 AM |       120 |          25000 |987654321       |                  13
+
+Old Publications
+
+Name                      |Type            |Publisher                 |ReleaseDate          |PageCount  |NumberReleased  |ISBN/Number    | Author/Number       
+Knyga 1                   |Mokslinis       |Kauno knygos              |5/3/2020 12:00:00 AM |       125 |           1000 |123546          |Visų Rašytojas      
+Žurnalas Mokslas          |Mokslinis       |Mokslu susidomėja         |5/3/2022 12:00:00 AM |        32 |           3000 |444444          |                  45
+Laikraštis Įvairovė       |Viskas          |Leidykla Supratimas       |10/10/2018 12:00:00 AM |        15 |          20000 |             15 |
+

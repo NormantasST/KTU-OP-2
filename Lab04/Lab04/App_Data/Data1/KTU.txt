@@ -1,0 +1,8 @@
+Kauno Biblioteka
+Kauno adresato g. 1
+8675946855
+Knyga 1;Book;Mokslinis;Kauno knygos;5/3/2020;125;1000;123546;Visų Rašytojas;
+Laikraštis 1918;Newspaper;Istorinis;Istoriniai laikraščiai;5/3/2022;25;200;124
+Knyga 3;Book;Pramoginis;Stumbro Lapai;5/5/2022;253;250;111111;Rašytojas 1
+Žurnalas Pasaulis;Journal;Geografinis;Pasaulio žemėlapiai;1/1/2000;64;15000;555555;1
+Žurnalas Mokslas;Journal;Mokslinis;Mokslu susidomėja;5/3/2022;32;3000;444444;45
