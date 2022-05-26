@@ -1,0 +1,3 @@
+Gatvė 2
+Pavarde4; 2; 1; 70
+Pavarde2; 1; 2; 50

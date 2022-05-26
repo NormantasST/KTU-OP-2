@@ -213,7 +213,6 @@ namespace Lab02
             row.Cells.Add(CreateCell(data.TaxName));
             row.Cells.Add(CreateCell(data.Price.ToString()));
             return row;
-
         }
 
         /// <summary>
